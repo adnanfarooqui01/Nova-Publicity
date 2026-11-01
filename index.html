@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Publicity | Complete Advertisement Solution</title>
+  <meta name="description" content="Nova Publicity provides complete signage, glow boards, acrylic lettering, flex board printing, branding and outdoor advertising solutions in Kanpur, Uttar Pradesh." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a href="#top" class="logo">NOVA PUBLICITY</a>
+    <nav class="nav__side nav__side--end">
+      <a href="#projects">Our Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="pill">Get a quote <b>→</b></a>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="slide active" style="background-image:url('images/Hero%201.jpg')" data-title="NOVA PUBLICITY" data-place="Creative Signage &amp; Advertising"></div>
+    <div class="slide" style="background-image:url('images/Hero%202.jpg')" data-title="Outdoor Advertising" data-place="High-impact brand visibility"></div>
+    <div class="slide" style="background-image:url('images/Hero%203.jpg')" data-title="Glow Sign Boards" data-place="Illuminated storefront branding"></div>
+    <div class="hero__shade"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">KANPUR'S SIGNAGE &amp; BRANDING PARTNER</p>
+      <h1>Make your business impossible to miss.</h1>
+      <p>From illuminated glow signs and acrylic letters to flex printing and storefront branding, we bring your brand into view.</p>
+      <div class="hero__actions">
+        <a href="#services" class="hero__button">Explore services <span>→</span></a>
+        <a href="#contact" class="hero__text-link">Get a quote</a>
+      </div>
+    </div>
+    <div class="hero__caption">
+      <span id="capTitle">NOVA PUBLICITY</span>
+      <span id="capPlace">Creative Signage &amp; Advertising</span>
+    </div>
+    <div class="hero__ar">Kanpur • Uttar Pradesh</div>
+  </section>
+
+  <main>
+    <section class="intro wrap" id="about">
+      <h1>Complete advertisement solutions that make your brand impossible to ignore.</h1>
+      <p>Nova Publicity creates impactful signage, glow boards, acrylic lettering, branding and outdoor advertising solutions for shops, showrooms, commercial spaces and businesses across Kanpur and beyond.</p>
+      <a href="#projects" class="link">See our work</a>
+    </section>
+
+    <section class="wrap portfolio" id="projects">
+      <div class="portfolio__head">
+        <h2>Our Work</h2>
+        <p>Professional signage and branding created for businesses that want stronger visibility.</p>
+        <a href="#contact" class="link">Request a quote</a>
+        <div class="count"><strong>1500+</strong><span>happy clients</span></div>
+      </div>
+      <div class="mosaic">
+        <figure class="m1"><img src="images/Glow%20Sign%20Boards.jpg" alt="Glow sign boards" /></figure>
+        <figure class="m2"><img src="images/Acrylic%20Letter%20Board.jpg" alt="Acrylic letter board" /></figure>
+        <figure class="m3"><img src="images/Shop%20Branding.jpg" alt="Shop branding" /></figure>
+        <figure class="m4"><img src="images/Hero%203.jpg" alt="Flex board printing" /></figure>
+        <figure class="m5"><img src="images/One%20Way%20Vision.jpg" alt="One way vision graphics" /></figure>
+        <figure class="m6"><img src="images/Hero%201.jpg" alt="Nova Publicity signage project" /></figure>
+        <figure class="m7"><img src="images/Eco%20Vinyl%20%2B%20Sunboard.jpg" alt="Eco vinyl and sunboard printing" /></figure>
+        <figure class="m8"><img src="images/Hero%202.jpg" alt="Nova Publicity advertising project" /></figure>
+      </div>
+    </section>
+
+    <section class="wrap services" id="services">
+      <div class="services__head">
+        <h2>Services</h2>
+      </div>
+      <ul class="services__list">
+        <li data-img="images/Glow%20Sign%20Boards.jpg"><span>Glow Sign Boards</span></li>
+        <li data-img="images/Acrylic%20Letter%20Board.jpg"><span>Acrylic Letter Boards</span></li>
+        <li data-img="images/Flex%20Boards.jpg"><span>Flex Board Printing</span></li>
+        <li data-img="images/Eco%20Vinyl%20%2B%20Sunboard.jpg"><span>Vinyl &amp; Sunboard</span></li>
+        <li data-img="images/One%20Way%20Vision.jpg"><span>One Way Vision</span></li>
+      </ul>
+    </section>
+
+    <section class="wrap contact" id="contact">
+      <div class="contact__img"><img src="images/info.jpg" alt="Nova Publicity information and signage" /></div>
+      <div class="contact__body">
+        <h3>Info</h3>
+        <dl>
+          <div><dt>Address</dt><dd>73-H, No. 1114, Rajeev Nagar,<br>Kanpur – 208011</dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:6392076755">6392076755</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:Hello@novapublicity.in">Hello@novapublicity.in</a></dd></div>
+          <div><dt>Business Hours</dt><dd>Always open · 24/7</dd></div>
+        </dl>
+        <h3>Get in touch</h3>
+        <form id="form">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="text" name="business" placeholder="Business name" required />
+          <input type="tel" name="phone" placeholder="Phone number" required />
+          <div class="service-picker">
+            <input type="hidden" name="service" value="" />
+            <button
+              class="service-picker__trigger"
+              type="button"
+              role="combobox"
+              aria-label="Select a service"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              aria-controls="service-options"
+              aria-required="true"
+            >
+              <span>Select a service</span>
+              <span class="service-picker__chevron" aria-hidden="true">⌄</span>
+            </button>
+            <div class="service-picker__menu" id="service-options" role="listbox" aria-label="Services" hidden>
+              <button type="button" role="option" aria-selected="false" data-value="Glow Sign Boards">Glow Sign Boards</button>
+              <button type="button" role="option" aria-selected="false" data-value="Acrylic Letter Boards">Acrylic Letter Boards</button>
+              <button type="button" role="option" aria-selected="false" data-value="Flex Board Printing">Flex Board Printing</button>
+              <button type="button" role="option" aria-selected="false" data-value="Eco Vinyl and Sunboard">Eco Vinyl &amp; Sunboard</button>
+              <button type="button" role="option" aria-selected="false" data-value="One Way Vision">One Way Vision</button>
+              <button type="button" role="option" aria-selected="false" data-value="Shop Branding">Complete Shop Branding</button>
+              <button type="button" role="option" aria-selected="false" data-value="Outdoor Advertising">Outdoor Advertising</button>
+              <button type="button" role="option" aria-selected="false" data-value="Other">Other</button>
+            </div>
+            <span class="service-picker__error" aria-live="polite"></span>
+          </div>
+          <textarea name="details" rows="2" placeholder="Tell us about your project"></textarea>
+          <button type="submit" class="link">Send enquiry</button>
+        </form>
+      </div>
+      <div class="contact__vert">Let's talk</div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <span>NOVA PUBLICITY</span>
+    <span>© 2026 Nova Publicity. All Rights Reserved.</span>
+  </footer>
+
+  <div class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img src="" alt="" /></div>
+  <script src="script.js"></script>
+</body>
+</html>
